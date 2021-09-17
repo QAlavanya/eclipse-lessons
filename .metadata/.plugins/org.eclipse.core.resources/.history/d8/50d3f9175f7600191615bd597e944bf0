@@ -1,0 +1,14 @@
+package AbstractionConcept;
+
+public class HDFCBank extends Bank{
+   
+	public void loan(){            // we are overriding the abstract class bank class
+		System.out.println("HDFC --Loan Method");
+	}
+	
+	public void funds(){
+		System.out.println("HDFC -- Funds");
+	}
+	
+	
+}
